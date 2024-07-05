@@ -1,0 +1,105 @@
+html {
+    font-family: "Dela Gothic One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+  
+body {
+    height: 100vh;
+    color: white;
+    background: rgb(55,112,225);
+    background: -moz-linear-gradient(180deg, rgba(55,112,225,1) 0%, rgba(99,219,255,1) 79%);
+    background: -webkit-linear-gradient(180deg, rgba(55,112,225,1) 0%, rgba(99,219,255,1) 79%);
+    background: linear-gradient(180deg, rgba(55,112,225,1) 0%, rgba(99,219,255,1) 79%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#3770e1",endColorstr="#63dbff",GradientType=1);
+    background-attachment: fixed;
+}
+
+#hi-container{
+    text-align: center;
+    text-shadow: 0px 0px 30px rgb(196, 222, 245);
+}
+
+#text_list_of_task{
+    height:50px;
+    width: 100%;
+    font-size: 27px;
+    text-align: center;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(8, 108, 190);
+    text-shadow: 0px 0px 30px rgb(157, 176, 240);
+}
+  
+#tasks-container {
+    display: flex;
+    flex-direction: column;
+}
+
+button{
+    font-family: "Dela Gothic One", sans-serif;
+    border: 0;
+}
+.task {
+    color: rgb(255, 255, 255);
+    width: 98%;
+    height:160px;
+    font-size: 20px;
+    background-color: rgb(7, 119, 224);
+    border-radius: 20px;
+    text-align:left;
+    padding: 2%;
+    margin: 2%;
+    text-shadow: 0px 0px 30px rgb(217, 222, 242);
+}
+  
+
+#telegram_logo {
+    position: relative;
+    margin-top: 0;
+    top:-20%;
+    left: 70%;
+    transform: translateY(-50%);
+}
+
+#x_logo{
+    position: relative;
+    margin-top: 0;
+    top:-26%;
+    left: 70%;
+    transform: translateY(-50%);
+}
+
+#footer {
+    position: fixed;
+    justify-content: center;
+    left: 50%;
+    transform: translateX(-50%);
+    right: 0;
+    bottom: 5%;
+    width: 90%;
+    height: 10%;
+    border-radius: 100px;
+    background-color: rgb(6, 65, 116);
+    text-align: center;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  
+#footer a {
+    margin: 0 10px;
+    color: rgb(255, 255, 255);
+    padding: 10px 15px;
+    border-radius: 100px;
+    flex: 4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.task_btn{
+    background: #1e83cb;
+}
+
